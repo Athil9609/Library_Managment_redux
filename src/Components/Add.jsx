@@ -38,7 +38,7 @@ function Add() {
     }
     return (
         <>
-            <button className='btn btn-outline-primary px-5 p-3 rounded-5 my-3' onClick={handleShow}>Add Book{' '}<i className="fa-solid fa-book-medical text-primary"  /></button>
+            <button className='btn btn-outline-info px-5 p-3 rounded-5 my-3' onClick={handleShow}>Add Book{' '}<i className="fa-solid fa-book-medical text-info"  /></button>
 
 
 <Modal 

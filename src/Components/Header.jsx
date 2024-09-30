@@ -6,7 +6,7 @@ function Header() {
   return (
 <>
 
-<Navbar className="bg-primary">
+<Navbar className="bg-info">
         <Container>
           <Navbar.Brand href="#home" className='text-light'>
           <i className="fa-solid fa-book" /> 

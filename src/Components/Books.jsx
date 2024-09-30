@@ -19,7 +19,7 @@ function Books() {
 
 <Card style={{ width: '18rem' }} className='rounded-5 text-light shadow'>
       <Card.Img style={{height:'300px'}} variant="top" src={item.imageUrl} className='img-fluid rounded-top-5' />
-      <Card.Body className='bg-primary rounded-bottom-5'>
+      <Card.Body className='bg-info rounded-bottom-5'>
         <Card.Title className='text-center mb-3'>{item.title}</Card.Title>
         <Card.Text>
          <div className='d-flex flex-column' >
@@ -43,7 +43,7 @@ function Books() {
     
 
 :
-<h1 className='text-center text-primary'>No Books Added yet!</h1>
+<h1 className='text-center text-info'>No Books Added yet!</h1>
 
 }
 </>  )

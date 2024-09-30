@@ -13,11 +13,11 @@ function Landing() {
               <img src='https://cdni.iconscout.com/illustration/premium/thumb/man-working-in-library-illustration-download-svg-png-gif-file-formats--work-staff-librarian-business-pack-illustrations-7048863.png?f=webp' className='img-fluid ' alt="" />
 
             </div>
-            <p style={{ textAlign: 'justify', cursor: 'default' }} className='mt-md-5 mt-sm-2 text-primary'>
+            <p style={{ textAlign: 'justify', cursor: 'default' }} className='mt-md-5 mt-sm-2 text-info'>
               Effortlessly manage your library’s collection with our simple and intuitive Library Management System, designed to streamline book organization and administration.
             </p>
 
-            <div className='d-grid'> <Link to={'/home'} className='btn btn-primary rounded-5 mt-3'>View Books</Link></div>
+            <div className='d-grid'> <Link to={'/home'} className='btn btn-info rounded-5 mt-3'>View Books</Link></div>
           </div>
         </div>
 

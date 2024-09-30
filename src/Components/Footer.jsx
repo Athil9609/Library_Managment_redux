@@ -11,13 +11,13 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
-  <MDBFooter className='bg-primary text-light'>
+  <MDBFooter className='bg-info text-light'>
       <MDBContainer className='p-4'>
         <MDBRow>
           <MDBCol lg="6" md="12" className='mb-4 mb-md-0'>
             <h5 className='text-uppercase'>Library Managment</h5>
 
-            <p className='text-secondary'>
+            <p className='text-light'>
             Effortlessly manage your library’s collection with our simple and intuitive Library Management System, designed to streamline book organization and administration.
 
             </p>
@@ -28,12 +28,12 @@ function Footer() {
 
             <ul className='list-unstyled mb-0'>
               <li>
-              <Link to={'/'} className='text-secondary'>
+              <Link to={'/'} className='text-light'>
                   Landing
                 </Link>
               </li>
               <li>
-              <Link to={'/home'} className='text-secondary'>
+              <Link to={'/home'} className='text-light'>
                   Home
                 </Link>
             </li>

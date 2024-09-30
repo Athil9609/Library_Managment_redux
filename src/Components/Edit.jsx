@@ -26,7 +26,7 @@ function Edit({ bookToEdit }) {
     return (
         <>
             <button className='btn btn-secondary rounded-5 py-2 ps-3' onClick={handleShow}>
-                <i className="fa-solid fa-file-pen text-primary" />
+                <i className="fa-solid fa-file-pen text-info" />
             </button>
 
             <Modal
